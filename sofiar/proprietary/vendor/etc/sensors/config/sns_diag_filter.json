@@ -332,12 +332,6 @@
       "ver" : "0",
       "data" : "1"
     },
-	"sar":
-    {
-      "type" : "int",
-      "ver" : "0",
-      "data" : "1"
-    }
     "threshold":
     {
       "type" : "int",

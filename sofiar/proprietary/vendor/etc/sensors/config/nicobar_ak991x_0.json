@@ -12,10 +12,13 @@
         "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
-        "data": "7"
+        "data": "9"
       },
       "slave_config":{ "type": "int", "ver": "0",
         "data": "12"
+      },
+      "i3c_address":{ "type": "int", "ver": "0",
+        "data": "20"
       },
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "400"
@@ -25,6 +28,21 @@
       },
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "82"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
       },
       "num_rail":{ "type": "int", "ver": "0",
         "data": "1"
@@ -42,13 +60,13 @@
     ".orient":{
       "owner": "sns_ak0991x",
       "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+        "data": "+x"
       },
       "y":{ "type": "str", "ver": "0",
         "data": "-y"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "+z"
+        "data": "-z"
       }
     },
     ".mag":{
@@ -58,31 +76,31 @@
         ".corr_mat":{
           "owner": "sns_ak0991x",
           "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.062"
+            "data": "0.94342041015625"
           },
           "0_1":{ "type": "flt", "ver": "0",
-            "data": "-0.054"
+            "data": "-0.0059814453125"
           },
           "0_2":{ "type": "flt", "ver": "0",
-            "data": "0.018"
+            "data": "0.00384521484375"
           },
           "1_0":{ "type": "flt", "ver": "0",
-            "data": "-0.054"
+            "data": "-0.0059814453125"
           },
           "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.950"
+            "data": "1.02899169921875"
           },
           "1_2":{ "type": "flt", "ver": "0",
-            "data": "-0.016"
+            "data": "-0.00811767578125"
           },
           "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.018"
+            "data": "0.00384521484375"
           },
           "2_1":{ "type": "flt", "ver": "0",
-            "data": "-0.016"
+            "data": "-0.00811767578125"
           },
           "2_2":{ "type": "flt", "ver": "0",
-            "data": "0.987"
+            "data": "1.03021240234375"
           }
         },
         ".bias":{
@@ -94,7 +112,7 @@
             "data": "0.0"
           },
           "z":{ "type": "flt", "ver": "0",
-            "data": "0.0"
+            "data": "-600.0"
           }
         }
       },
@@ -103,31 +121,31 @@
         ".corr_mat":{
           "owner": "sns_ak0991x",
           "0_0":{ "type": "flt", "ver": "0",
-            "data": "1.00225830078125"
+            "data": "1.0"
           },
           "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.02764892578125"
+            "data": "0.0"
           },
           "0_2":{ "type": "flt", "ver": "0",
-            "data": "-0.02447509765625"
+            "data": "0.0"
           },
           "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.02764892578125"
+            "data": "0.0"
           },
           "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.93914794921875"
+            "data": "1.0"
           },
           "1_2":{ "type": "flt", "ver": "0",
-            "data": "-0.02825927734375"
+            "data": "0.0"
           },
           "2_0":{ "type": "flt", "ver": "0",
-            "data": "-0.02447509765625"
+            "data": "0.0"
           },
           "2_1":{ "type": "flt", "ver": "0",
-            "data": "-0.02825927734375"
+            "data": "0.0"
           },
           "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.0654296875"
+            "data": "1.0"
           }
         },
         ".bias":{

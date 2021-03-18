@@ -1,10 +1,10 @@
 {
   "config":
   {
-    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK", "IDP"],
-    "soc_id": ["291", "246", "305", "336", "339", "341", "347", "360", "394"]
+    "hw_platform": ["IDP"],
+    "soc_id": [ "394"]
   },
-  "icm4x6xx_0":{
+   "icm4x6xx_0":{
     "owner": "icm4x6xx",
     ".accel":{
       "owner": "icm4x6xx",
