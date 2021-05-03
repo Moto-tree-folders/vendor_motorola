@@ -34,9 +34,9 @@ PRODUCT_PACKAGES := \
 daxService \
 MotoDolbyV3
 
-BOARD_SEPOLICY_DIRS := $(LOCAL_PATH)/sepolicy/vendor
+BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy/vendor
 
-DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/motodolby.xml
+DEVICE_MANIFEST_FILE += $(LOCAL_PATH)/motodolby.xml
 
 endif
 endif
