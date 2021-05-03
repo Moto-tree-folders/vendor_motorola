@@ -22,13 +22,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/evert/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/motorola/evert/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/motorola/evert/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
-    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
-    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
-    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
-    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Bluetooth_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/General_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Global_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Handset_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Hdmi_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Headset_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Speaker_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/idn/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/idn/Bluetooth_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/idn/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/idn/General_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/idn/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/idn/Global_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/idn/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/idn/Handset_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/idn/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/idn/Hdmi_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/idn/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/idn/Headset_cal.acdb \
+    vendor/motorola/evert/proprietary/vendor/etc/acdbdata/idn/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/idn/Speaker_cal.acdb \
     vendor/motorola/evert/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/motorola/evert/proprietary/vendor/etc/camera/mot_ov5675_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov5675_chromatix.xml \
     vendor/motorola/evert/proprietary/vendor/etc/camera/mot_s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k3p8sp_chromatix.xml \
